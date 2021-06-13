@@ -294,6 +294,12 @@
         <item>255</item>
     </integer-array>
 
+    <!-- Slow brightness animation ramp rate in float. -->
+    <item name="config_brightnessRampRateSlowFloat" format="float" type="dimen">0.04</item>
+
+    <!-- Fast brightness animation ramp rate in float. -->
+    <item name="config_brightnessRampRateFastFloat" format="float" type="dimen">0.4058823</item>
+
     <!-- Array of ambient lux threshold values. This is used for determining hysteresis constraint
          values by calculating the index to use for lookup and then setting the constraint value
          to the corresponding value of the array. The new brightening hysteresis constraint value
